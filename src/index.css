@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  justify-content: center;
 }
 
 h1 {
@@ -80,6 +81,10 @@ h5,
 h6,
 p {
   margin: 0;
+}
+
+ul {
+  list-style-type: none;
 }
 
 ul,

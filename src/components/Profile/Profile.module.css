@@ -2,23 +2,24 @@
   border: 3px solid #000;
   border-radius: 10px;
   background-color: #f0f0f0;
-  width: 600px;
-  padding-top: 20px;
+  padding-top: 15px;
+  width: 350px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .profilePicture {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   background-color: #2a2d32;
 }
 
 .profileName {
-  font-size: 52px;
+  font-size: 26px;
   color: #000;
   font-weight: 700;
-  margin: 10px 0;
+  margin: 10px 0 5px;
 }
 
 .userInfoContainer {
@@ -28,14 +29,14 @@
 }
 
 .userInfo {
-  color: #a0a0a0;
-  font-size: 36px;
+  color: #787878;
+  font-size: 18px;
 }
 
 .list {
   width: 100%;
   display: flex;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .listItem {
@@ -45,12 +46,12 @@
   align-items: center;
   background-color: #c0c0c0;
   outline: 3px solid #a0a0a0;
-  padding: 20px;
+  padding: 10px;
 }
 
 .listItemElem {
   color: #000;
-  font-size: 36px;
+  font-size: 18px;
 }
 
 .itemAccent {
