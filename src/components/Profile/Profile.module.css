@@ -1,0 +1,58 @@
+.card {
+  border: 3px solid #000;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  width: 600px;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.profilePicture {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #2a2d32;
+}
+
+.profileName {
+  font-size: 52px;
+  color: #000;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.userInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userInfo {
+  color: #a0a0a0;
+  font-size: 36px;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+
+.listItem {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c0c0c0;
+  outline: 3px solid #a0a0a0;
+  padding: 20px;
+}
+
+.listItemElem {
+  color: #000;
+  font-size: 36px;
+}
+
+.itemAccent {
+  font-weight: 700;
+}
